@@ -1,87 +1,57 @@
+@import "compass/css3";
 .flex-container {
-    display: flex;
-    height: 630px;
-    align-items: center;
-   /* background-color: white;*/
+padding:0;
+margin: 0;
+list-style:none;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display:flex;
+-webkit-flex-flow: row wrap;
+justify-content:space-around;
 }
-.flex-container > .d{
-/*background-color: lightcoral;*/
-    justify-content: center;
-    align-items: center;
-}
-/*.flex-container > .test2{
-   background-color:lightgray;
-    justify-content: center;
-    align-items: center;
-}
-.flex-container > .f{
-   /* background-color: whitesmoke;
-    justify-content: center;
-    align-items: center;
-}*/
 
-#a {
-    color: red; 
-    background-color: yellowgreen;
-    font-size: 100%;
-    font-family: sans-serif;
-        height: 10vmin;   
-    width: 15vmin;
-        /* min-width: 10vh;*/
-    align-content: center;
-    justify-content: center;
-    
-        }
-        
- #b {
-    color: red;
-    background-color: yellow;
-    font-size: 100%;
-    font-family:sans-serif;
-     height: 10vmin;
-      width: 15vmin;
-    /* min-width: 10vh;*/     
-    align-content: center;
-    justify-content: center;
-        }
-#c {  
-    color: red;
-    background-color: pink;    
-    font-size: 100%;    
-    font-family: sans-serif;
-    height: 10vmin;  
-    width: 15vmin;    
-    /*min-width: 10vh;*/    
-    align-content: center;
-    justify-content: center;
-        }
-.d {
-/*background-color: whitesmoke;
-   padding : 150px;    
-   float: left;*/
-width: 30%;
-/*margin-top: 100px;*/
-    align-content: center;
+.flex-item {
+background:yellowgreen;
+padding:5px;
+width: 200px;
+height: 150px;
+margin-top:200px;
+margin-left:90px;
+line-height: 150px;
+color: white;
+font-weight:bold;
+font-size:3em;
+text-align:center;
+align-content:center;
+justify-content: center;
+display:flex;
+}
+.left-bgc {
+background-color:lightblue;
+align-content:center;
 /*justify-content: center;*/
-display: flex;
+display:flex;
+height: 600px;
+width: 370px;
+}
+.midle-bgc {
+    background-color:burlywood;
+    align-content:center;
+    /*justify-content: center;*/
+    display:flex;
+    height: 600px;
+    width: 370px;
     }
-
-.test1 {
-    background-color: lightblue;
-    height: 600px;
-    width: 400px;
-
+ .right-bgc {
+        background-color:lightblue;
+        align-content:center;
+        /*justify-content: center;*/
+        display:flex;
+        height: 600px;
+        width: 370px;
         }
-    
-.test2 {
-    background-color: whitesmoke;
-    height: 600px;
-    width: 400px;
-}
 
-.test3 {
-    background-color: lightblue;
-     height: 600px;
-     width: 400px;
-}
+
 
